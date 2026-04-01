@@ -159,7 +159,7 @@ if st.sidebar.button("🚀 Generate Forecast"):
     future_dates = pd.date_range(
         start=pd.Timestamp.today(),
         periods=steps,
-        freq='Q-DEC'
+        freq='QE-DEC'
     )
 
     forecast_df = pd.DataFrame({
